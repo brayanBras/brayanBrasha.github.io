@@ -1,0 +1,109 @@
+     body{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color:#01112b;
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+
+.titulo {
+    padding: 40px;
+    background-color:#01112b;
+}
+
+nav ul {
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #0a476b;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    padding: 20px;
+    width: 150px;
+    color: white;
+}
+nav ul a:hover {
+    background-color: #69b5e0;
+}
+
+.contenido {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.contenido .objetivos {
+    width: 70%;
+    margin: auto;
+    font-size:20px;
+}
+.contenido .objetivos div {
+    background-color: #69b5e0;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.contenido .objetivos img {
+    width: 200px;
+    border-radius: 15px;
+}
+.contenido .secundario {
+    width: 30%;
+}
+.contenido .secundario p {
+    line-height:1.50;
+    color:white;
+    font-size:20px;
+    background-color: #0a476b;
+    border-radius: 15px;
+    padding: 20px;
+    height: 700px;
+}
+
+/* Estilo para la pestaña de proyecto */
+.contenido .Proyectos h1 {
+        line-height:1.50;
+        color:white;
+}
+
+.contenido .Proyectos h3 {
+        line-height:1.50;
+        color:white;
+}
+.contenido .Proyectos p {
+   background-color: #69b5e0;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size:20px;
+}
+
+/* Estilos de las imágenes */
+.contenido .Proyectos img {
+    margin: 10px;
+    width: 250px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+.piedepagina {
+    background-color: #0a476b;
+    margin-top: 100px;
+}
+.piedepagina p {
+    color:white;
+    line-height:1.0;
+    font-size:20px;
+    padding: 100px;
+}
+
